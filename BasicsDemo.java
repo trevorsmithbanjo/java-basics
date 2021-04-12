@@ -104,6 +104,10 @@ class BasicsDemo {
         return sum / 2;
     }
 
+    static boolean search(int[] list, int key) {
+        return true;
+    }
+
     public static void main(String[] args) {
 
         // Language Basics 1
@@ -118,4 +122,8 @@ class BasicsDemo {
         double d2 = avg(3.0, 2.0);
         System.out.println(d2);
     }
+
+    int[] list = {1, 2};
+
+    search(list, 2);
 }
